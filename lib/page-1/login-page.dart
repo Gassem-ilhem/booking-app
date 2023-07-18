@@ -181,7 +181,7 @@ class Scene extends StatelessWidget {
                     child: Center(
                       child: Center(
                         child: Text(
-                          'Sign in',
+                          'Sign on',
                           textAlign: TextAlign.center,
                           style: SafeGoogleFont (
                             'Urbanist',
