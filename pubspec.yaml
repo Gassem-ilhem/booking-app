@@ -1,5 +1,7 @@
-name: booking_app
-description: A new Flutter project.
+name: myapp
+description: A exported flutter project from FUNCTION12
+
+
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -19,7 +21,7 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.6 <4.0.0'
+  sdk: '>=2.18.2 <3.0.0'
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -35,6 +37,7 @@ dependencies:
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
 
 dev_dependencies:
   flutter_test:
@@ -62,6 +65,162 @@ flutter:
   # assets:
   #   - images/a_dot_burr.jpeg
   #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/page-1/images/google.png
+    - assets/page-1/images/google-zT9.png
+    - assets/page-1/images/rectangle-73-bg.png
+    - assets/page-1/images/rectangle-88-bg.png
+    - assets/page-1/images/facebook.png
+    - assets/page-1/images/rectangle-82-bg.png
+    - assets/page-1/images/rectangle-53-bg.png
+    - assets/page-1/images/rectangle-85-bg.png
+    - assets/page-1/images/rectangle-65-bg.png
+    - assets/page-1/images/forgot-password-1.png
+    - assets/page-1/images/rectangle-91-bg.png
+    - assets/page-1/images/rectangle-61-bg.png
+    - assets/page-1/images/group-efh.png
+    - assets/page-1/images/rectangle-57-bg.png
+    - assets/page-1/images/.png
+    - assets/page-1/images/facebook-551.png
+    - assets/page-1/images/rectangle-79-bg.png
+    - assets/page-1/images/rectangle-48-bg.png
+    - assets/page-1/images/rectangle-34-bg.png
+    - assets/page-1/images/group.png
+    - assets/page-1/images/rectangle-69-bg.png
+    - assets/page-1/images/group-T6F.png
+    - assets/page-1/images/auto-group-gebz.png
+    - assets/page-1/images/star-12.png
+    - assets/page-1/images/ellipse-15.png
+    - assets/page-1/images/group-DZZ.png
+    - assets/page-1/images/group-UnK.png
+    - assets/page-1/images/vector.png
+    - assets/page-1/images/ellipse-24.png
+    - assets/page-1/images/group-ViP.png
+    - assets/page-1/images/auto-group-rwjt.png
+    - assets/page-1/images/vector-aPh.png
+    - assets/page-1/images/group-Lr3.png
+    - assets/page-1/images/iconly-light-outline-arrow-left.png
+    - assets/page-1/images/group-Gmd.png
+    - assets/page-1/images/star-8.png
+    - assets/page-1/images/auto-group-x2nb.png
+    - assets/page-1/images/ellipse-20.png
+    - assets/page-1/images/group-b8j.png
+    - assets/page-1/images/vector-Ls1.png
+    - assets/page-1/images/star-13.png
+    - assets/page-1/images/group-Sb9.png
+    - assets/page-1/images/auto-group-ua8o.png
+    - assets/page-1/images/ellipse-21.png
+    - assets/page-1/images/group-gsH.png
+    - assets/page-1/images/group-iSb.png
+    - assets/page-1/images/star-9.png
+    - assets/page-1/images/auto-group-txlk.png
+    - assets/page-1/images/star-6.png
+    - assets/page-1/images/ellipse-16.png
+    - assets/page-1/images/group-zzK.png
+    - assets/page-1/images/auto-group-trs9.png
+    - assets/page-1/images/ellipse-17.png
+    - assets/page-1/images/star-7.png
+    - assets/page-1/images/group-DTu.png
+    - assets/page-1/images/ic-baseline-email.png
+    - assets/page-1/images/auto-group-ssnj.png
+    - assets/page-1/images/group-Vi7.png
+    - assets/page-1/images/group-q1H.png
+    - assets/page-1/images/group-ABy.png
+    - assets/page-1/images/group-PgK.png
+    - assets/page-1/images/group-rMV.png
+    - assets/page-1/images/vector-6Yf.png
+    - assets/page-1/images/iconly-light-outline-arrow-left-7bV.png
+    - assets/page-1/images/group-dEP.png
+    - assets/page-1/images/auto-group-8aqx.png
+    - assets/page-1/images/star-10.png
+    - assets/page-1/images/group-i6b.png
+    - assets/page-1/images/vector-geK.png
+    - assets/page-1/images/star-14.png
+    - assets/page-1/images/group-kxF.png
+    - assets/page-1/images/group-kYF.png
+    - assets/page-1/images/group-XKM.png
+    - assets/page-1/images/ellipse-23.png
+    - assets/page-1/images/bxs-bath.png
+    - assets/page-1/images/star-11.png
+    - assets/page-1/images/star-11-Yzj.png
+    - assets/page-1/images/ellipse-19.png
+    - assets/page-1/images/group-Vh1.png
+    - assets/page-1/images/group-Bfd.png
+    - assets/page-1/images/group-h2F.png
+    - assets/page-1/images/group-bUK.png
+    - assets/page-1/images/material-symbols-sms-rounded.png
+    - assets/page-1/images/group-Jgo.png
+    - assets/page-1/images/group-3yh.png
+    - assets/page-1/images/jam-bookmark-minus-f.png
+    - assets/page-1/images/vector-XeX.png
+    - assets/page-1/images/vector-SFh.png
+    - assets/page-1/images/ellipse-18.png
+    - assets/page-1/images/group-YHD.png
+    - assets/page-1/images/group-GTR.png
+    - assets/page-1/images/vector-oVH.png
+    - assets/page-1/images/group-orX.png
+    - assets/page-1/images/ellipse-22.png
+    - assets/page-1/images/iconly-light-outline-arrow-left-8oZ.png
+    - assets/page-1/images/group-Mbm.png
+    - assets/page-1/images/auto-group-q2wy.png
+    - assets/page-1/images/rectangle-18-bg.png
+    - assets/page-1/images/star-16.png
+    - assets/page-1/images/rectangle-19-bg.png
+    - assets/page-1/images/group-cko.png
+    - assets/page-1/images/auto-group-swsw.png
+    - assets/page-1/images/vector-Q5d.png
+    - assets/page-1/images/group-S4o.png
+    - assets/page-1/images/vector-MJ7.png
+    - assets/page-1/images/healthicons-ui-menu-negative.png
+    - assets/page-1/images/eva-search-outline.png
+    - assets/page-1/images/star-15.png
+    - assets/page-1/images/ellipse-14.png
+    - assets/page-1/images/jam-bookmark-minus.png
+    - assets/page-1/images/group-pS3.png
+    - assets/page-1/images/jam-bookmark-minus-1qH.png
+    - assets/page-1/images/bxs-search.png
+    - assets/page-1/images/mdi-account-outline.png
+    - assets/page-1/images/ri-notification-4-line.png
+    - assets/page-1/images/fluent-home-16-regular.png
+    - assets/page-1/images/line-6.png
+    - assets/page-1/images/rectangle-17-bg.png
+    - assets/page-1/images/iconly-bold-location.png
+    - assets/page-1/images/rectangle-94-bg.png
+    - assets/page-1/images/ellipse-4.png
+    - assets/page-1/images/ellipse-3.png
+    - assets/page-1/images/bx-swim.png
+    - assets/page-1/images/fa-solid-wifi.png
+    - assets/page-1/images/star-1.png
+    - assets/page-1/images/ic-outline-restaurant-menu.png
+    - assets/page-1/images/star-2.png
+    - assets/page-1/images/group-5af.png
+    - assets/page-1/images/ellipse-5.png
+    - assets/page-1/images/star-2-iC7.png
+    - assets/page-1/images/group-U4o.png
+    - assets/prototype/images/group-85.png
+    - assets/page-1/images/group-1Vy.png
+    - assets/page-1/images/rectangle-18-bg-tjy.png
+    - assets/page-1/images/vector-Acw.png
+    - assets/page-1/images/group-6TH.png
+    - assets/page-1/images/ic-baseline-meeting-room.png
+    - assets/prototype/images/group-HTD.png
+    - assets/page-1/images/star-3.png
+    - assets/page-1/images/group-rab.png
+    - assets/prototype/images/group-zB1.png
+    - assets/page-1/images/group-ZvF.png
+    - assets/page-1/images/iconly-light-outline-arrow-left-CMV.png
+    - assets/page-1/images/iconly-light-outline-arrow-left-Acw.png
+    - assets/page-1/images/rectangle-106-bg.png
+    - assets/page-1/images/iconly-bold-location-Pzo.png
+    - assets/page-1/images/star-4.png
+    - assets/prototype/images/group-Mmy.png
+    - assets/prototype/images/group-n95.png
+    - assets/page-1/images/mdi-car-brake-parking.png
+    - assets/prototype/images/auto-group-asrj.png
+    - assets/page-1/images/ic-outline-elevator.png
+    - assets/page-1/images/ri-24-hours-line.png
+    - assets/prototype/images/forgot-password-1-4w9.png
+    - assets/prototype/images/-9AF.png
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
